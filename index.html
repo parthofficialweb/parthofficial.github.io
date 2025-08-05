@@ -1,62 +1,102 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PARTH OFFICIAL</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Pacifico&family=Anton&display=swap" rel="stylesheet">
   <style>
-    body {
+    * {
       margin: 0;
-      font-family: 'Poppins', sans-serif;
-      background: linear-gradient(rgba(255,255,255,0.1), rgba(0,0,0,0.5)), url('XDIMAGE01.png') no-repeat center center fixed;
-      background-size: cover;
-      color: white;
+      padding: 0;
+      box-sizing: border-box;
     }
-    header {
+    body {
+      background: url('XDIMAGE01.png') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Orbitron', sans-serif;
+      color: #add8e6;
       text-align: center;
-      padding: 100px 20px 50px;
+      padding: 50px 20px;
+    }
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      z-index: -1;
     }
     h1 {
-      font-size: 60px;
-      color: #00bfff; /* Light blue */
-      text-shadow: 2px 2px 10px #000;
+      font-size: 4rem;
+      font-family: 'Anton', sans-serif;
+      color: #00bfff;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px #000;
+    }
+    h2 {
+      font-size: 1.8rem;
+      color: #87cefa;
+      margin-bottom: 10px;
     }
     .tagline {
-      font-size: 24px;
-      color: #add8e6; /* Light blue */
-      margin-top: 10px;
-      text-shadow: 1px 1px 5px #000;
+      font-family: 'Pacifico', cursive;
+      font-size: 1.5rem;
+      margin-bottom: 30px;
+      color: #b0e0e6;
     }
-    .info {
-      margin-top: 20px;
-      font-size: 20px;
-      color: #b0e0ff; /* Light blue */
+    .contact a {
+      display: block;
+      margin: 10px 0;
+      text-decoration: none;
+      color: #7ec8e3;
+      font-size: 1.2rem;
+      transition: 0.3s;
     }
-    .explore-button {
-      margin-top: 40px;
-      padding: 12px 28px;
-      font-size: 18px;
-      background-color: #00bfff;
+    .contact a:hover {
+      color: #ffffff;
+    }
+    .explore-btn {
+      display: inline-block;
+      margin: 30px 0;
+      padding: 12px 30px;
+      background: linear-gradient(to right, #00bfff, #1e90ff);
       color: white;
+      font-weight: bold;
+      font-size: 1.2rem;
       border: none;
-      border-radius: 6px;
-      cursor: pointer;
-      transition: background 0.3s ease;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: 0.4s;
     }
-    .explore-button:hover {
-      background-color: #0099cc;
+    .explore-btn:hover {
+      background: linear-gradient(to right, #1e90ff, #00bfff);
+      transform: scale(1.05);
+    }
+    .footer-line {
+      margin-top: 50px;
+      font-family: 'Pacifico', cursive;
+      font-size: 1.2rem;
+      color: #d3f3ff;
+    }
+    .icons {
+      margin-top: 40px;
+      font-size: 2rem;
+      color: #add8e6;
+    }
+    .icons span {
+      margin: 0 15px;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1># PARTH OFFICIAL</h1>
-    <p class="tagline">DJ Remix Artist 🎧 | Video Editor 🎬 | Creativity Unleashed</p>
-    <p class="info">📞 Contact: 8849960700</p>
-    <p class="info">📸 Instagram: @parathxd</p>
-    <p class="info">📧 Email: parathxgym@gmail.com</p>
-    <button class="explore-button">Explore More</button>
-  </header>
+  <div class="overlay"></div>  <h1>PARTH OFFICIAL</h1>
+  <h2>DJ REMIX AND MUSIC & VIDEO EDITOR</h2>
+  <div class="tagline">Turning Vibes Into Waves, One Beat At A Time!</div><a class="explore-btn" href="#">Explore More</a>
+
+  <div class="icons">
+    <span>🎧</span><span>🎬</span><span>💻</span>
+  </div>  <div class="contact">
+    <a href="https://wa.me/918849960700">📞 WhatsApp: 8849960700</a>
+    <a href="mailto:parathxgym@gmail.com">📧 Email: parathxgym@gmail.com</a>
+    <a href="https://instagram.com/parathxd">📸 Instagram: @parathxd</a>
+  </div>  <div class="footer-line">Smile, not professional 😎</div>
 </body>
 </html>
