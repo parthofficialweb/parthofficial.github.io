@@ -1,130 +1,84 @@
-<!DOCTYPE html><html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PARTH OFFICIAL</title>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
   <style>
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-    }
-    body {
-      <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>PARTH OFFICIAL - Explore</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-image: url('XDIMAGE01.png');
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-      background-attachment: fixed;
-      color: white;
-      position: relative;
-    }
+    }body {
+  background: url('XDIMAGE01.png') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  backdrop-filter: brightness(60%) contrast(130%) saturate(120%);
+}
 
-    .overlay {
-      background-color: rgba(0, 0, 0, 0.6);
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      z-index: 0;
-    }
+h1 {
+  font-size: 4em;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 5px black;
+}
 
-    .content {
-      position: relative;
-      z-index: 1;
-      padding: 30px;
-      text-align: center;
-    }
+p {
+  font-size: 1.2em;
+  margin: 10px 0;
+  text-shadow: 1px 1px 3px black;
+}
 
-    h1 {
-      font-size: 48px;
-      font-weight: bold;
-      text-shadow: 2px 2px 4px black;
-    }
+.highlight {
+  font-style: italic;
+  font-size: 1.5em;
+  color: #ffd700;
+  margin-top: 20px;
+  text-shadow: 2px 2px 6px black;
+}
 
-    .player {
-      margin: 20px auto;
-      max-width: 600px;
-    }
+.btn {
+  margin-top: 30px;
+  padding: 15px 35px;
+  background-color: #ff007f;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 2px 2px 10px black;
+  transition: transform 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  background-color: #ff1493;
+}
+
+.info {
+  margin-top: 40px;
+  font-size: 1em;
+  line-height: 1.6;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px black;
+}
+
   </style>
-</head>
-<body>
-  <div class="overlay"></div>
-
-  <div class="content">
-    <h1>PARTH OFFICIAL</h1>
-
-    <h2>🎧 Video Demos</h2>
-
-    <video class="player" controls>
-      <source src="PARTHXDDEMO.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
-
-    <!-- Baaki 11 video players blank for future -->
-    <!-- Copy paste more players below as needed -->
-
-    <h2>🎵 Audio Demos</h2>
-
-    <!-- 12 blank audio players ready -->
-    <audio class="player" controls>
-      <source src="ParthXd Demo.wav" type="audio/wav" />
-      Your browser does not support the audio element.
-    </audio>
-    <!-- Copy paste more players below as needed -->
-  </div>
-</body>
-</html>
-    }
-    h1 {
-      font-size: 3rem;
-      letter-spacing: 4px;
-      margin-bottom: 1.5rem;
-    }
-    h2 {
-      font-size: 1.5rem;
-      margin-bottom: 2rem;
-      font-weight: 400;
-    }
-    .explore-btn {
-      background-color: transparent;
-      border: 2px solid #00fff7;
-      color: #00fff7;
-      font-size: 1.2rem;
-      padding: 0.8rem 2rem;
-      border-radius: 8px;
-      text-decoration: none;
-      transition: 0.3s ease;
-    }
-    .explore-btn:hover {
-      background-color: #00fff7;
-      color: #000;
-    }
-    .contact {
-      position: absolute;
-      bottom: 20px;
-      font-size: 0.9rem;
-      color: #aaa;
-    }
-  </style>
-</head>
-<body>
+</head><body>
   <h1>PARTH OFFICIAL</h1>
-  <h2>Music Remix DJ Artist | Video Editor</h2>
-  <a class="explore-btn" href="explore.html">Explore</a>  <div class="contact">
-    Contact: 8849960700 | Instagram: @parthxd
+  <p class="highlight">Make some noise, the KING has arrived!</p><button class="btn" onclick="location.href='explore.html'">Explore</button>
+
+  <div class="info">
+    <p><strong>📞 Contact:</strong> 8849960700</p>
+    <p><strong>📷 Instagram:</strong> <a href="https://instagram.com/parathxd" style="color: #1e90ff; text-decoration: none;" target="_blank">@parathxd</a></p>
+    <p><strong>✉️ Email:</strong> <a href="mailto:parathxgym@gmail.com" style="color: #1e90ff; text-decoration: none;">parathxgym@gmail.com</a></p>
   </div>
-</body>
-</html>
+</body></html>
