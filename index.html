@@ -11,16 +11,82 @@
       box-sizing: border-box;
     }
     body {
-      font-family: 'Orbitron', sans-serif;
-      background-color: #000000;
-      color: #e0e0e0;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PARTH OFFICIAL - Explore</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-image: url('XDIMAGE01.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      color: white;
+      position: relative;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+    }
+
+    .content {
+      position: relative;
+      z-index: 1;
+      padding: 30px;
       text-align: center;
-      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 48px;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px black;
+    }
+
+    .player {
+      margin: 20px auto;
+      max-width: 600px;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay"></div>
+
+  <div class="content">
+    <h1>PARTH OFFICIAL</h1>
+
+    <h2>🎧 Video Demos</h2>
+
+    <video class="player" controls>
+      <source src="PARTHXDDEMO.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+    <!-- Baaki 11 video players blank for future -->
+    <!-- Copy paste more players below as needed -->
+
+    <h2>🎵 Audio Demos</h2>
+
+    <!-- 12 blank audio players ready -->
+    <audio class="player" controls>
+      <source src="ParthXd Demo.wav" type="audio/wav" />
+      Your browser does not support the audio element.
+    </audio>
+    <!-- Copy paste more players below as needed -->
+  </div>
+</body>
+</html>
     }
     h1 {
       font-size: 3rem;
