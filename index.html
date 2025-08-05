@@ -1,84 +1,96 @@
-<!DOCTYPE html><html lang="en"><head>
+<!DOCTYPE html><html lang="en">
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PARTH OFFICIAL</title>
+  <title>Parth Official</title>
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }body {
-  background: url('XDIMAGE01.png') no-repeat center center fixed;
-  background-size: cover;
-  color: white;
-  height: 100vh;
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Poppins:wght@400;700&display=swap');* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  background: url('XDIMAGE01.png') no-repeat center center/cover;
+  min-height: 100vh;
+  backdrop-filter: brightness(0.4);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  backdrop-filter: brightness(60%) contrast(130%) saturate(120%);
+  padding: 2rem;
 }
 
 h1 {
-  font-size: 4em;
-  font-weight: bold;
-  letter-spacing: 3px;
-  text-shadow: 2px 2px 5px black;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 4rem;
+  color: #ff2c8b;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 15px #ff2c8b;
 }
 
-p {
-  font-size: 1.2em;
-  margin: 10px 0;
-  text-shadow: 1px 1px 3px black;
-}
-
-.highlight {
+.tagline {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
   font-style: italic;
-  font-size: 1.5em;
-  color: #ffd700;
-  margin-top: 20px;
-  text-shadow: 2px 2px 6px black;
-}
-
-.btn {
-  margin-top: 30px;
-  padding: 15px 35px;
-  background-color: #ff007f;
-  color: white;
-  font-size: 1.2em;
-  font-weight: bold;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  box-shadow: 2px 2px 10px black;
-  transition: transform 0.3s ease;
-}
-
-.btn:hover {
-  transform: scale(1.05);
-  background-color: #ff1493;
+  color: #ccc;
 }
 
 .info {
-  margin-top: 40px;
-  font-size: 1em;
-  line-height: 1.6;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 1.5rem;
+  border-radius: 15px;
+  max-width: 600px;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 20px #111;
+}
+
+.info p {
+  margin: 0.5rem 0;
+}
+
+.button {
+  background: #ff2c8b;
+  border: none;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
   border-radius: 10px;
-  box-shadow: 2px 2px 10px black;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  text-decoration: none;
+  box-shadow: 0 0 10px #ff2c8b;
+}
+
+.button:hover {
+  background: #e60073;
+}
+
+footer {
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #aaa;
 }
 
   </style>
-</head><body>
+</head>
+<body>
   <h1>PARTH OFFICIAL</h1>
-  <p class="highlight">Make some noise, the KING has arrived!</p><button class="btn" onclick="location.href='explore.html'">Explore</button>
-
-  <div class="info">
+  <div class="tagline">
+    🎧 DJ REMIX ARTIST | 🎬 VIDEO EDITOR | VISUAL CREATOR
+  </div>  <div class="info">
     <p><strong>📞 Contact:</strong> 8849960700</p>
-    <p><strong>📷 Instagram:</strong> <a href="https://instagram.com/parathxd" style="color: #1e90ff; text-decoration: none;" target="_blank">@parathxd</a></p>
-    <p><strong>✉️ Email:</strong> <a href="mailto:parathxgym@gmail.com" style="color: #1e90ff; text-decoration: none;">parathxgym@gmail.com</a></p>
-  </div>
-</body></html>
+    <p><strong>📸 Instagram:</strong> <a href="https://instagram.com/parathxd" style="color:#ff2c8b;" target="_blank">@parathxd</a></p>
+    <p><strong>📧 Email:</strong> parathxgym@gmail.com</p>
+    <p><strong>🎶 About:</strong> Creating high-quality DJ remixes & cinematic video edits that hit different. Mixing beats & frames to make you feel the vibe!</p>
+    <p><strong>🔥 Skills:</strong> EDM Remixing, Trap Mixing, Visual FX, Transitions, Cinematic Cuts, Slowmo Syncs</p>
+  </div><a class="button" href="explore.html">Explore Duniya 🔥</a>
+
+  <footer>
+    © 2025 PARTH OFFICIAL | Beats & Edits that hit hard 🎶🎥
+  </footer>
+</body>
+</html>
