@@ -1,103 +1,99 @@
-<!DOCTYPE html><html lang="en"><head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Explore - PARTH OFFICIAL</title>
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore | Parth Official</title>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Poppins:wght@300;600&display=swap');* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Poppins', sans-serif;
-  background: url('https://images.unsplash.com/photo-1607083206173-bd1b3f83fa1c?auto=format&fit=crop&w=1920&q=80') no-repeat center center fixed;
-  background-size: cover;
-  color: white;
-  padding: 20px;
-}
-
-h1 {
-  font-family: 'Orbitron', sans-serif;
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url('https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=1920&q=80') no-repeat center center/cover;
+      color: white;
+    }header {
   text-align: center;
-  font-size: 3rem;
-  color: #00f2ff;
-  margin-bottom: 40px;
-  text-shadow: 2px 2px 4px black;
+  padding: 40px 10px 20px 10px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #00ffff;
+  text-shadow: 2px 2px 8px #000;
 }
 
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 30px;
-  max-width: 1200px;
-  margin: auto;
+  gap: 20px;
+  padding: 30px;
 }
 
-.video-card {
+.card {
   background: rgba(0, 0, 0, 0.6);
   border-radius: 15px;
   padding: 15px;
-  box-shadow: 0 0 10px #00f2ff88;
-  text-align: center;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+  backdrop-filter: blur(8px);
 }
 
-.video-card video {
+video {
   width: 100%;
+  height: auto;
   border-radius: 10px;
 }
 
 .coming-soon {
-  font-size: 1.2rem;
+  text-align: center;
+  font-size: 18px;
   color: #ccc;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
   </style>
-</head><body>
-  <h1>PARTH OFFICIAL</h1>  <div class="container">
-    <!-- Video 1 -->
-    <div class="video-card">
-      <video controls>
-        <source src="PARTHXDEMO.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-    </div><!-- Video 2 -->
-<div class="video-card">
+</head>
+<body>
+  <header>PARTH OFFICIAL - DEMO VIDEOS</header>
+  <div class="container"><!-- Working Videos -->
+<div class="card">
   <video controls>
-    <source src="PARTHXDEMO2.mp4" type="video/mp4" />
+    <source src="PARTHXDEMO.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
 
-<!-- Video 3 -->
-<div class="video-card">
+<div class="card">
   <video controls>
-    <source src="XDDEMO3.mp4" type="video/mp4" />
+    <source src="PARTHXDEMO2.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<div class="card">
+  <video controls>
+    <source src="XDDEMO3.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
 
 <!-- Coming Soon Boxes -->
-<div class="video-card">
+<div class="card">
   <div class="coming-soon">Coming Soon...</div>
 </div>
 
-<div class="video-card">
+<div class="card">
   <div class="coming-soon">Coming Soon...</div>
 </div>
 
-<div class="video-card">
+<div class="card">
   <div class="coming-soon">Coming Soon...</div>
 </div>
 
-<div class="video-card">
+<div class="card">
   <div class="coming-soon">Coming Soon...</div>
 </div>
 
-<div class="video-card">
+<div class="card">
   <div class="coming-soon">Coming Soon...</div>
 </div>
 
   </div>
-</body></html>
+</body>
+</html>
